@@ -15,6 +15,7 @@ int main(){
     cout << enc<< endl;
     dec = c.decode(enc);
     cout<< dec;
+    cout<< "This is a test for git";
     return 0;
 
 };

@@ -21,9 +21,12 @@ class string {
   char& operator[](int index);
   // string mystring = "some string";
   // string mystring("some string");
+  
   string(const char s[]);
   // length
   int length();
+  string copy(string& other);
+  // copies the string
 
  private:
   //Empty constructor is a useful way to declare local string objects 

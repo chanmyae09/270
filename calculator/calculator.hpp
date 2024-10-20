@@ -1,4 +1,6 @@
-#pragma once
+#ifndef CALCULATOR_APP
+#define CALCULATOR_APP
+
 
 class Calculator
 {
@@ -8,4 +10,3 @@ public:
     double Multiply (const double &a, const double &b);
     double Divide (const double &a, const double &b);
 };
-
